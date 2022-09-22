@@ -12,13 +12,62 @@ body{
     line-height: 1;
     color: #555;
 }
-
+/* HERO SECTION //////////////////////////*/
+.hero-section{
+    background-color: #ffe6d2;
+    padding: 9.6rem 0;
+}
 .hero{
     max-width: 90vw;
     margin:0 auto ;
     display: grid;
     grid-template-columns:1fr 1fr ;
+    column-gap: 9.6rem;
+    align-items: center;
 }
 .hero-img{
     max-width: 100%;
+}
+/* .hero-text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+} */
+.hero-header{
+    font-size: 5.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #333;
+    margin-bottom: 6.2rem;
+}
+.hero-description{
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 4.8rem;
+}
+.hero-btns{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5rem;
+}
+.hero-btns .btn:link ,
+.hero-btns .btn:visited{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    color: #ffe6d2;
+    background-color: #e4771c;
+    padding: 1.7rem;
+    border-radius: 10px;
+    border: 0;
+    /* always put transition on the original state */
+    transition: all 1s;
+    box-shadow: 1px 1.5px 5px #555;
+}
+.hero-btns .btn:hover ,
+.hero-btns .btn:active{
+    color: #fff;
+    background-color: #fd9035;
+    box-shadow: 0.5px 0.5px 4px #555;
 }
