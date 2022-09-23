@@ -25,6 +25,24 @@ body{
     align-items: center;
     padding:4.8rem;
 }
+
+.main-nav-list{
+    display: flex;
+    gap: 3.2rem;
+    list-style: none;
+}
+.main-nav-link:link ,
+.main-nav-link:visited {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #666;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+.main-nav-link:hover , 
+.main-nav-link:active {
+    color: #222;
+}
 /* HERO SECTION //////////////////////////*/
 .hero-section{
     background-color: #ffe6d2;
