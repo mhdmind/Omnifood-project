@@ -30,6 +30,28 @@ body{
 .grid--4-cols{
     grid-template-columns: repeat(4,1fr);
 }
+.heading-primary{
+    font-size: 5.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #31112C;
+    margin-bottom: 6.2rem;
+}
+.heading-secondary{
+    color: #31112C;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 9.6rem;
+}
+.subheading{
+    display:block;
+    color: #D36B00;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+}
 /* HEADER//////////////////////////////// */
 
 .logo{
@@ -66,6 +88,7 @@ body{
 .hero-section{
     background-color: #ffe6d2;
     padding: 2.6rem 0 9.6rem;
+    margin-bottom: 9.6rem;
 }
 .hero{
     max-width: 90vw;
@@ -84,13 +107,7 @@ body{
     justify-content: space-evenly;
     
 } */
-.hero-header{
-    font-size: 5.5rem;
-    font-weight: 700;
-    line-height: 1.1;
-    color: #333;
-    margin-bottom: 6.2rem;
-}
+
 .hero-description{
     font-size: 2rem;
     line-height: 1.5;
@@ -144,4 +161,22 @@ body{
 .delivered-meals p{
     font-weight: bold;
     font-size: 1.2rem;
+}
+/* SECTION HOW ////////////////////////////// */
+.section-how{
+    padding: 0 0 9.6rem;
+    margin-bottom: 9.6rem;
+}
+.step-img{
+    width: 50%;
+}
+.step-img-box{
+    display: flex;
+    justify-content:center;
+}
+.step-text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5rem;
 }
