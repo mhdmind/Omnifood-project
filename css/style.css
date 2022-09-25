@@ -1,57 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-html{
-    font-size: 62.5%;
-}
-body{
-    font-family: 'poppins', sans-serif;
-    line-height: 1;
-    color: #555;
-}
-/* General reuseable conponents///////////// */
-.container{
-    max-width: 90vw;
-    margin: 0 auto;
-}
-.grid{
-    display: grid;
-    column-gap: 9.6rem;
-}
-.grid--2-cols{
-    grid-template-columns: repeat(2,1fr);
-}
-.grid--3-cols{
-    grid-template-columns: repeat(3,1fr);
-}
-.grid--4-cols{
-    grid-template-columns: repeat(4,1fr);
-}
-.heading-primary{
-    font-size: 5.5rem;
-    font-weight: 700;
-    line-height: 1.1;
-    color: #31112C;
-    margin-bottom: 6.2rem;
-}
-.heading-secondary{
-    color: #31112C;
-    font-weight: 700;
-    font-size: 4rem;
-    line-height: 1.2;
-    margin-bottom: 9.6rem;
-}
-.subheading{
-    display:block;
-    color: #D36B00;
-    font-size: 1.6rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 1.6rem;
-}
+
 /* HEADER//////////////////////////////// */
 
 .logo{
@@ -163,20 +110,33 @@ body{
     font-size: 1.2rem;
 }
 /* SECTION HOW ////////////////////////////// */
+
 .section-how{
     padding: 0 0 9.6rem;
     margin-bottom: 9.6rem;
 }
 .step-img{
-    width: 50%;
+    width: 35%;
 }
 .step-img-box{
     display: flex;
     justify-content:center;
+    align-items: center;
 }
 .step-text-box{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 5rem;
+}
+
+.step-number{
+    font-weight: bold;
+    font-size: 9.8rem;
+    color: #bbb;
+    margin-bottom: 1.2rem;
+}
+.step-description{
+    font-size: 1.8rem;
+    line-height: 1.6;
 }
