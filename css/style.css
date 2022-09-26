@@ -188,3 +188,60 @@
     font-size: 1.8rem;
     line-height: 1.6;
 }
+/* MEALS SECTION ///////////////////////*/
+.meal{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #fcf9f6;
+    /* padding: 2.2rem; */
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px rgb(216, 216, 216);
+    border: 0;
+}
+.section-meals{
+    padding: 0 0 9.6rem;
+}
+.meal-img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.meal-title{
+    font-size: 2.4rem;
+    color: #333;
+    font-weight: 600;
+    padding: 0 2rem;
+}
+.meal-attributes{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+}
+.tag{
+    color: #fff9f4;
+    width: 40%;
+    display: inline-block;
+    padding: 0.3rem 2rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #1aba35;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.meal-attributes li{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.meal-attributes li span{
+    font-size: 1.5rem;
+    font-weight: medium;
+}
+.meal-icon{
+    font-size: 1.9rem;
+    color: #fd9035;
+}
