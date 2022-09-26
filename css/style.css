@@ -198,6 +198,12 @@
     border-radius: 15px;
     box-shadow: 1px 1px 15px rgb(216, 216, 216);
     border: 0;
+    transition: all 0.5s;
+}
+.meal:hover{
+    transform: translateY(-1.3rem);
+    box-shadow: 1px 3px 20px rgb(181, 179, 179);
+    
 }
 .section-meals{
     padding: 0 0 9.6rem;
@@ -244,4 +250,56 @@
 .meal-icon{
     font-size: 1.9rem;
     color: #fd9035;
+}
+/* ///////// */
+.diets{
+    background-color: #fcf9f6;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px rgb(216, 216, 216);
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+.list-item{
+    font-size: 1.5rem;
+    display: flex;
+    gap: 2rem;
+    background-color:#fad59dc9;
+    padding: 0.7rem;
+    border-radius: 10px;
+}
+.diets h3{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    padding:2rem 0 1rem;
+}
+.all-recipes{
+    padding: 5rem;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+}
+.diet-btn:link,
+.diet-btn:visited{
+    background-color: #ffa94d;
+    text-decoration: none;
+    color: #fcf9f6;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #878787f9;    
+    transition: all 0.5s;
+}
+.diet-btn:hover,
+.diet-btn:active{
+    color: #fd9035;
+    background-color: #fcf9f6;
 }
