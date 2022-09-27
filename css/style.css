@@ -71,19 +71,18 @@
     text-transform: capitalize;
     font-size: 1.5rem;
     color: #ffe6d2;
-    background-color: #e26c12a3;
-    padding: 1.7rem;
+    background-color: #f77b1df5;
+    padding: 1.4rem;
     border-radius: 10px;
     border: 0;
     /* always put transition on the original state */
-    transition: all 1s;
-    box-shadow: 1px 1.5px 5px #555;
+    transition: all 0.5s;
+    box-shadow: 1px 1px 3px rgb(178, 178, 178);
 }
 .hero-btns .btn:hover ,
 .hero-btns .btn:active{
-    color: #fff;
-    background-color: #fd9035;
-    box-shadow: 0.5px 0.5px 4px #555;
+    color: rgb(245, 157, 56);
+    background-color: #fefaf7;
 }
 
 .delivered-meals{
@@ -261,21 +260,7 @@
     flex-direction: column;
     justify-content: stretch;
 }
-.list{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    padding: 2rem;
-}
-.list-item{
-    font-size: 1.5rem;
-    display: flex;
-    gap: 2rem;
-    background-color:#fad59dc9;
-    padding: 0.7rem;
-    border-radius: 10px;
-}
+
 .diets h3{
     font-size: 2rem;
     display: flex;
@@ -350,4 +335,60 @@
 .gallery-item img:hover{
     transform: scale(1.1);
     
+}
+
+/* SECTION PRICING /////////////////////*/
+.section-pricing{
+    padding: 8rem 0 9.6rem;
+}
+.plan-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 4.5rem;
+}
+.plan-name{
+    color: #cf711f;
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75;
+}
+.plan-price{
+    font-size: 6.2rem;
+    font-weight: bold;
+    color: #333;
+}
+.plan-price span{
+    font-size: 3rem;
+    font-weight: inherit;
+    margin-right: 0.7rem;
+}
+.plan-text{
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: #999;
+}
+.btn-price:link, 
+.btn-price:visited{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    color: #ffe6d2;
+    background-color: #ff8f3af0;
+    padding: 1rem;
+    border-radius: 10px;
+    /* always put transition on the original state */
+    transition: all 0.5s;
+    box-shadow: 0px 0px 3px #555;
+}
+.btn-price:hover , 
+.btn-price:active{
+    color: rgb(242, 150, 12);
+    background-color: #fbede1;
+}
+.plan-sign-up{
+    text-align: center;
+    margin-top: 4.8rem;
 }
