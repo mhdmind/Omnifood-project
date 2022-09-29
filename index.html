@@ -10,7 +10,9 @@
   </head>
   <body>
     <header class="header">
-      <img src="/img/omnifood-logo.png" alt="omnifood logo" class="logo" />
+      <a href="#">
+        <img src="/img/omnifood-logo.png" alt="omnifood logo" class="logo" />
+      </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a href="#" class="main-nav-link">number 1</a></li>
@@ -509,31 +511,42 @@
 
       <section class="section-cta">
         <div class="container cta">
-          
           <div class="cta-text-box">
             <h2 class="heading-secondary">get your first meal for free !</h2>
-          <p class="cta-text">
-            Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!
-          </p>
-          <form class="cta-form" action="#">
-            <div class="form-detail">
-              <label for="full-name">your full name:</label>
-              <input type="text" placeholder="Alex Smith" id="full-name" required>
-            </div>
-            <div class="form-detail">
-              <label for="email">your email address :</label>
-              <input type="email" placeholder="me@mail.com" id="email" required>
-            </div>
-            <div class="form-detail">
-              <label for="select-where">where did you hear from us ?</label>
-              <select name="" id="select-where">
-                <option value="friends">friends and family</option>
-                <option value="youtube">youtube videos</option>
-                <option value="podcast">podcast</option>
-              </select>
-            </div>
-            <button class="btn btn--form">sign up</button>
-          </form>
+            <p class="cta-text">
+              Healthy, tasty and hassle-free meals are waiting for you. Start
+              eating well today. You can cancel or pause anytime. And the first
+              meal is on us!
+            </p>
+            <form class="cta-form" action="#">
+              <div class="form-detail">
+                <label for="full-name">your full name:</label>
+                <input
+                  type="text"
+                  placeholder="Alex Smith"
+                  id="full-name"
+                  required
+                />
+              </div>
+              <div class="form-detail">
+                <label for="email">your email address :</label>
+                <input
+                  type="email"
+                  placeholder="me@mail.com"
+                  id="email"
+                  required
+                />
+              </div>
+              <div class="form-detail">
+                <label for="select-where">where did you hear from us ?</label>
+                <select name="" id="select-where">
+                  <option value="friends">friends and family</option>
+                  <option value="youtube">youtube videos</option>
+                  <option value="podcast">podcast</option>
+                </select>
+              </div>
+              <button class="btn btn--form">sign up</button>
+            </form>
           </div>
           <div
             class="cta-img-box"
@@ -542,6 +555,69 @@
           ></div>
         </div>
       </section>
+      <footer>
+        <div class="container grid grid--5-cols">
+          <div class="logo-col">
+            <a href="#" class="footer-logo">
+              <img
+                src="/img/omnifood-logo.png"
+                alt="omnifood logo"
+                class="logo"
+              />
+            </a>
+            <ul>
+              <li>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+              </li>
+              <li>
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+              </li>
+              <li>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+              </li>
+            </ul>
+            <p class="copyright">copyright &copy; 2022 by omnifood</p>
+          </div>
+          <div class="address-col">
+            <p class="footer-heading">Contact Us</p>
+            <address class="contact">
+              <p>
+                Address: 623 Harrison St., 2nd Floor, San Francisco, CA 94107
+              </p>
+              <p>
+                <a href="tel:415-201-6370">415-201-6370</a><br />
+                <a href="mailto:mxhdi.sh@gmail.com">mxhdi.sh@gmail.com</a>
+              </p>
+            </address>
+          </div>
+          <div class="nav-col">
+            <p class="footer-heading">Account</p>
+            <ul class="footer-nav">
+              <li><a href="#">create account</a></li>
+              <li><a href="#">Sign in</a></li>
+              <li><a href="#">iOS app</a></li>
+              <li><a href="#">Android app</a></li>
+            </ul>
+          </div>
+          <div class="nav-col">
+            <p class="footer-heading">Company</p>
+            <ul class="footer-nav">
+              <li><a href="#">About Omnifood</a></li>
+              <li><a href="#">For Business</a></li>
+              <li><a href="#">Cooking partners</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="nav-col">
+            <p class="footer-heading">Resources</p>
+            <ul class="footer-nav">
+              <li><a href="#">Recipe directory</a></li>
+              <li><a href="#">Help center</a></li>
+              <li><a href="#">Privacy & terms</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </main>
 
     <script

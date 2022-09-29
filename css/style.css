@@ -525,3 +525,8 @@
     background-color: #ffe6d2;
     color: #4a2601;
 }
+/* FOOTER/////////////////////////////// */
+footer{
+    padding: 9.6rem 0;
+    background-color: rgba(232, 232, 232, 0.319);
+}
