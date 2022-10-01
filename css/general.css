@@ -87,13 +87,13 @@ body{
     justify-content: center;
 }
 /* lists general  */
-.list{
+/* .list{
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 2rem;
     padding: 2rem;
-}
+} */
 .list-item{
     font-size: 1.5rem;
     display: flex;
@@ -102,4 +102,5 @@ body{
     padding: 0.7rem;
     border-radius: 10px;
     align-items: center;
+    margin-bottom: 2rem;
 }
