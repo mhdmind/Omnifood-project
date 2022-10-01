@@ -1,0 +1,75 @@
+/* rem and em do not depend on html font size in media queries
+1rem = 1em = 16px
+*/
+
+/* BELOW 1300PX ////////////// */
+@media (max-width:81em){
+    .hero{
+        max-width: 88vw;
+    }
+    .logos img{
+        height: 3rem;
+    }
+    .delivered-meals{
+        gap: 2rem;
+    }
+    .section-meals .grid {
+        gap: 6.6rem;
+    }
+    .pricing-plan{
+        padding: 2.5rem;
+        width: 83%;
+    }
+
+}
+/* below 1088px */
+@media (max-width:68em){
+    /* .heading-primary{
+        font-size: 4.5rem;
+    }
+    .step-text-box{
+        gap: 4rem;
+    }
+    .gallery{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .section-testimonials .grid--2-cols{
+        grid-template-columns: 2fr 1fr;
+    }
+    .section-pricing .grid--2-cols{
+        gap: 5.6rem;
+    }
+    .pricing-plan{
+        width: 85%;
+    }
+    .cta{
+        width: 80%;
+        height: 54rem;
+    }
+    .cta .heading-secondary{
+        font-size: 2.5rem;
+        margin-bottom: 1.6rem;
+    }
+    .cta-form input{
+        padding: 0.8rem;
+    }
+    .cta-form{
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+
+    } */
+    html{
+        font-size: 52%;
+    }
+    .cta{
+        height: 58rem;
+        width: 75%;
+    }
+    .cta-form{
+        grid-template-columns: 1fr;
+        row-gap: 1.4rem;
+    }
+    .cta-text-box .heading-secondary{
+        font-size: 3rem;
+    }
+}
