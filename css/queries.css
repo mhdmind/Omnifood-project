@@ -5,7 +5,7 @@
 /* BELOW 1300PX ////////////// */
 @media (max-width:81em){
     .hero{
-        max-width: 88vw;
+        max-width: 90vw;
     }
     .logos img{
         height: 3rem;
@@ -19,6 +19,9 @@
     .pricing-plan{
         padding: 2.5rem;
         width: 83%;
+    }
+    .cta{
+        width: 90%;
     }
 
 }
@@ -61,15 +64,94 @@
     html{
         font-size: 52%;
     }
+    .hero{
+        column-gap: 5.6rem;
+    }
+    .gallery{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .gallery-item img{
+        width: 78%;
+    }
+    .gallery-item{
+        text-align: center;
+    }
+}
+/* below 896px /////////////////// */
+@media (max-width:56em){
+    .heading-primary{
+        font-size: 4rem;
+    }
+    .section-how .grid--2-cols{
+        gap: 4.6rem;
+    }
+    .section-meals .grid{
+        gap: 2.6rem;
+    }
+    .section-testimonials .grid--2-cols{
+        gap: 3.6rem;
+    }
+    .section-pricing .grid--4-cols{
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+    }
+    .grid--footer{
+        gap: 6.6rem;
+    }
+    
+    
+}
+/* below 800px  ////////////////////////*/
+@media (max-width:50em){
+    .hero{
+        grid-template-columns: 1fr;
+        row-gap: 10rem;
+        text-align: center;    
+    }
+    .hero-btns{
+        justify-content: center;
+    }
+    .delivered-meals{
+        justify-content: center;
+    }
+    .hero-img{
+        width: 60%;
+    }
+    .logos{
+        flex-wrap: wrap;
+        column-gap: 2rem;
+        row-gap: 2rem;
+        height: 2.4rem;
+    }
+    .section-how .grid--2-cols{
+        gap:1.6rem;
+    }
+    .step-number{
+        font-size: 7.4rem;
+    }
+    .section-meals .grid--3-cols{
+        grid-template-columns: repeat(2,1fr);
+        gap: 9.6rem;
+    }
+    .diets{
+        grid-column:1/-1;
+        justify-self: center;
+        padding: 2.5rem;
+    }
+    .section-testimonials .grid--2-cols{
+        grid-template-columns: 1fr;
+    }
+    .gallery{
+        grid-template-columns: repeat(5,1fr);
+    }
     .cta{
-        height: 58rem;
-        width: 75%;
+        grid-template-columns: 3fr 2fr;
+        height: 67rem;
     }
     .cta-form{
         grid-template-columns: 1fr;
-        row-gap: 1.4rem;
     }
-    .cta-text-box .heading-secondary{
-        font-size: 3rem;
+    .cta-img-box{
+        background-position: center;
     }
 }
