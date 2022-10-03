@@ -6,11 +6,13 @@
 }
 html{
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 body{
     font-family: 'poppins', sans-serif;
     line-height: 1;
     color: #555;
+    overflow-x: hidden;
 }
 /* General reuseable conponents///////////// */
 *:focus{
