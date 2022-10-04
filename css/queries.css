@@ -170,6 +170,7 @@
     /* mobile nav section /////////////////////////*/
     .btn-mobile-nav{
         display:block;
+        z-index: 1;
     }
     .main-nav{
         position: absolute;
@@ -187,11 +188,13 @@
 
         pointer-events: none;
         visibility: hidden;
-        transform: translateX(100%);
+        z-index: 0;
+        
     }
     .main-nav-list{
         flex-direction: column;
         gap: 4.8rem;
+        align-items: center;
     }
     .nav-open .main-nav{
         opacity: 1;
