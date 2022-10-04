@@ -46,7 +46,21 @@
 .icon-mobile-nav[name="close-circle-outline"]{
     display: none;
 }
-
+/* sticky navigation /////////////////////*/
+.sticky .header{
+    position: fixed;
+    top: 0;
+    height: 4rem;
+    padding-top:0;
+    padding-bottom: 0;
+    background-color: rgba(255, 255, 255, 0.874);
+    width: 100%;
+    z-index: 999;
+    transition: all 0.5s;
+}
+.sticky .hero-section{
+    margin-top: 4rem;
+}
 /* HERO SECTION //////////////////////////*/
 .hero-section{
     background-color: #fdf2e9;
