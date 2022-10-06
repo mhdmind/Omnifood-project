@@ -518,7 +518,7 @@
     
 }
 .cta-img-box{
-    background-image:linear-gradient(to bottom, #d3690032 , #ff8f3a48), url(/img/eating.jpg);
+    background-image:linear-gradient(to bottom, #d3690032 , #ff8f3a48), url(eating.jpg);
     background-size: cover;
 }
 .cta-form{
